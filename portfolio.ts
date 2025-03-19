@@ -181,7 +181,7 @@ export const experience: ExperienceType[] = [
     company: "DADIU (Danish Academy of Digital, Interactive Entertainment)",
     companyLogo: "/img/icons/common/DADIU Black Grayscale.png",
     date: "August 2024 - January 2024",
-    desc: "", //TODO: Add description
+    desc: "A cross-disciplanary production with numerous Danish universities where we, as a team of 14, produced 2 full games.",
   },
   {
     role: "Student assistant",
