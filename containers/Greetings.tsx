@@ -13,7 +13,7 @@ const Greetings = () => {
   return (
     <main>
       <div className="position-relative">
-        <section className="section section-lg section-shaped pb-250">
+        <section className="section section-lg section-shaped pb-0">
           <div className="shape shape-style-1 bg-gradient-info">
             <span />
             <span />
@@ -42,12 +42,15 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">Resume PDF (In Danish)</span>
                       </Button>
                     </div>
                   )}
                 </Col>
                 <Col lg="6">
+                  <div className="image-container">
+                    <img src="./img/Profile.png" alt="" className="img-fluid" style={{ borderRadius: "120px" }} />
+                  </div>
                   <GreetingLottie animationPath="/lottie/coding.json" />
                 </Col>
               </Row>

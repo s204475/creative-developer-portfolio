@@ -22,7 +22,7 @@ export const greetings: GreetingsType = {
   title: "Hello there, I'm Victor",
   description:
     "I'm a developer with a passion and flair for project management and creative processes. Keep scrolling to explore my work and skills.",
-  //resumeLink: "#",
+  resumeLink: "/Victor G. H. Rasmussen CV (Danish).pdf",
 };
 
 export const openSource = {
@@ -270,7 +270,7 @@ export const seoData: SEODataType = {
   title: "Victor G. H. Rasmussen - Portfolio",
   description: greetings.description,
   author: "Victor G. H. Rasmussen",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4", //TODO: update image
+  image: "./img/Profile.png",
   //url: "", //TODO: update url
   keywords: [
     "Victor Gustav Harbo Rasmussen",
