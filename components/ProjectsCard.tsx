@@ -37,6 +37,12 @@ const ProjectsCard = ({
                   </span>
                 </Button>
               ) : null}
+              {gif ? (
+                //Show gif
+                <Fade bottom>
+                  <img alt="..." className="img-fluid rounded shadow-lg" src={gif} />
+                </Fade>
+              ) : null}
               {link ? (
                 <Button
                   className="btn-icon"

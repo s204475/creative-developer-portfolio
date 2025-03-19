@@ -233,18 +233,21 @@ export const games: ProjectType[] = [
     buttonText: "Play for Free on Steam",
     link2: "https://www.youtube.com/watch?v=mu_uweJRkYo&ab_channel=TeamTallTrees",
     buttonText2: "Watch the Trailer",
+    gif: "./gifs/mixing.gif",
   },
   {
     name: "Midnight Snack",
     desc: "A VR horror game where you have to fight back against a monster chef trying to eat you.",
     //link: "",
     //buttonText: "Play for Free on Itch",
+    gif: "./gifs/MidnightSnack.gif",
   },
   {
     name: "Post the Most",
     desc: "A frantic mail sorting game that will test your skills and your nerves. Developed for Ludum Dare 53 Game jam and placed in top 33%",
     link: "https://ldjam.com/events/ludum-dare/53/post-the-most",
     buttonText: "Play on Ludum Dare",
+    gif: "./gifs/PostTheMost.gif",
   },
   {
     name: "Lyngbyvej",
