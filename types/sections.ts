@@ -71,7 +71,7 @@ export type ExperienceType = {
   descBullets?: string[];
 };
 
-// * PROJECT SECTION
+// * PROJECT & GAMES SECTIONS
 
 export type ProjectType = {
   name: string;

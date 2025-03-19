@@ -14,7 +14,7 @@ const Greetings = () => {
     <main>
       <div className="position-relative">
         <section className="section section-lg section-shaped pb-0">
-          <div className="shape shape-style-1 bg-gradient-info">
+          <div className="shape shape-style-1 bg-gradient-warning">
             <span />
             <span />
             <span />

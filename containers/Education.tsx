@@ -8,12 +8,12 @@ const Education = () => {
   return (
     educationInfo && (
       <Fade bottom duration={2000}>
-        <section className="section pb-0 bg-gradient-info my-5">
+        <section className="section pb-0 bg-gradient-warning my-5">
           <Container>
             <div className="d-flex px-3">
               <div>
-                <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                  <i className="ni ni-books text-info" />
+                <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-warning">
+                  <i className="ni ni-books text-warning" />
                 </div>
               </div>
               <div className="pl-4">
