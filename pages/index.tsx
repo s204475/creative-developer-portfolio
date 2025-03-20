@@ -23,16 +23,17 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <SEO />
       <Navigation />
       <Greetings />
-      <JumpTo projectsRef={projectsRef} gamesRef={gamesRef} />
-      <Skills />
-      <Proficiency />
-      <Education />
-      <Experience />
-      <Feedbacks />
-      <div ref={projectsRef} />
-      <Projects />
       <div ref={gamesRef} />
       <Games />
+      {/*
+      <JumpTo projectsRef={projectsRef} gamesRef={gamesRef} />
+      */}
+      <Education />
+      <Skills /> {/*TODO: Combine skills and proficiency*/}
+      <div ref={projectsRef} />
+      <Projects />
+      <Proficiency />
+      <Experience />
       <GithubProfileCard {...githubProfileData} />
     </div>
   );
