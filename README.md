@@ -21,7 +21,7 @@
 - [Next.js](https://nextjs.org/)
 - [axios](https://www.npmjs.com/package/axios)
 - [reactstrap](https://reactstrap.github.io/)
-- [react-reveal](https://www.react-reveal.com/)
+- react-awesome-reveal
 - [react-lottie](https://www.npmjs.com/package/react-lottie)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)

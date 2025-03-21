@@ -1,17 +1,17 @@
 import React from "react";
 import { SkillBars } from "../portfolio";
 import { Container, Row, Progress, Col } from "reactstrap";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import GreetingLottie from "../components/DisplayLottie";
 
 const Proficiency = () => {
   return (
     SkillBars && (
-      <Container className="section section-lg">
-        <Fade bottom duration={2000}>
+      <Container className="section section-lg" >
+        <Fade direction="up" duration={1200} triggerOnce>
           <Row>
             <Col lg="6">
-              <h1 className="h1">Proficiency</h1>
+              <h1 className="h1">Proficiences</h1>
               {SkillBars.map(skill => {
                 return (
                   <div className="progress-info" key={skill.Stack}>
@@ -31,9 +31,6 @@ const Proficiency = () => {
                   </div>
                 );
               })}
-            </Col>
-            <Col lg="6">
-              <GreetingLottie animationPath="/lottie/build.json" />
             </Col>
           </Row>
         </Fade>

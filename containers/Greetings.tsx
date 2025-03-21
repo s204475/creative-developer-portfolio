@@ -51,7 +51,6 @@ const Greetings = () => {
                   <div className="image-container">
                     <img src="./img/Profile.png" alt="" className="img-fluid" style={{ borderRadius: "120px" }} />
                   </div>
-                  <GreetingLottie animationPath="/lottie/coding.json" />
                 </Col>
               </Row>
             </div>

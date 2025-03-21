@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, CardBody, Col, Button } from "reactstrap";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import { ProjectType } from "../types/sections";
 
 const ProjectsCard = ({
@@ -39,7 +39,7 @@ const ProjectsCard = ({
               ) : null}
               {gif ? (
                 //Show gif
-                <Fade bottom>
+                <Fade direction="up" triggerOnce>
                   <img alt="..." className="img-fluid rounded shadow-lg" src={gif} />
                 </Fade>
               ) : null}

@@ -2,12 +2,12 @@ import { feedbacks } from "../portfolio";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import FeedbackCard from "../components/FeedbackCard";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const Feedbacks = () => {
   return (
     feedbacks && (
-      <Fade bottom duration={2000}>
+      <Fade direction="up" duration={1200} triggerOnce>
         <section className="section section-lg">
           <Container>
             <div className="d-flex p-4">

@@ -246,7 +246,7 @@ export const games: ProjectType[] = [
   },
   {
     name: "The Unwelcome",
-    desc: "An exploration thriller telling the story of a photographer trying to figure out what happened in a old garden many yeras ago when children were going missing.",
+    desc: "An exploration thriller telling the story of a photographer trying to figure out what happened in a old garden many years ago where children were going missing.",
     gif: "./gifs/UnwelcomeCamera.gif",
     link: "https://patricia-blaymo.itch.io/the-unwelcome",
     buttonText: "Play for Free on Itch",
