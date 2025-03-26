@@ -266,16 +266,9 @@ export const games: ProjectType[] = [
   },
 ];
 
-/*
+
 export const feedbacks: FeedbackType[] = [
-  {
-    name: "", //Employer
-    role: "", //Employer Role
-    feedback: 
-      "",
-  },
 ];
-*/
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
