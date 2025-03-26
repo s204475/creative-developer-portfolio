@@ -253,7 +253,7 @@ export const games: ProjectType[] = [
   },
   {
     name: "Post the Most",
-    desc: "A frantic mail sorting game that will test your skills and your nerves. Developed for Ludum Dare 53 Game jam and placed in top 33%",
+    desc: "A frantic mail sorting game that will test your skills and your nerves. Developed for Ludum Dare 53 Game jam and placed in top 33%.",
     link: "https://ldjam.com/events/ludum-dare/53/post-the-most",
     buttonText: "Play on Ludum Dare",
     gif: "./gifs/PostTheMost.gif",
