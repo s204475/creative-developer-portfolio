@@ -230,7 +230,7 @@ export const projects: ProjectType[] = [
 export const games: ProjectType[] = [
   {
     name: "End Transmission?",
-    desc: "Music management puzzle game with a gripping story and unique gameplay mechanics where players get to mix their own music in a world that is slowly fading away",
+    desc: "Music management puzzle game with a gripping story and unique gameplay mechanics where players get to mix their own music in a world that is slowly fading away.",
     link: "https://store.steampowered.com/app/3426490/End_Transmission/",
     buttonText: "Play for Free on Steam",
     link2: "https://www.youtube.com/watch?v=mu_uweJRkYo&ab_channel=TeamTallTrees",
