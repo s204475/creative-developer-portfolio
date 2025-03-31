@@ -13,8 +13,9 @@ import {
 
 /**
  * TODO: Certificate
- * TODO: Game projects
  * TODO: Winner of DTU Innovation Challenge in course "42501 Innovation in Engineering" (representing Hempel)
+ * TODO: Better skills showcase
+ * TODO: Midnight snack
  */
 
 export const greetings: GreetingsType = {
@@ -220,7 +221,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: "Creative Developer Portfolio",
-    desc: "This very webpage. A software developer portfolio built with react.js and next.js bootstrap that showcases my work and skills as a software developer.",
+    desc: "This very webpage. A software developer portfolio built with react.js and next.js bootstrap that showcases my work.",
     //github: "",
     //link: "",
     //buttonText: "Reload this page",
