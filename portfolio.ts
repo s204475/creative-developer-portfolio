@@ -47,43 +47,31 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: "Full Stack Development",
-      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "/lottie/skills/Programming.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Making creative and user-friendly applications both for entertainment and productivity"),
         emoji("🥇 Building performant and scalable applications on multiple platforms"),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
           skillName: "CSharp",
           iconifyTag: "vscode-icons:file-type-csharp",
+        },
+        {
+          skillName: "Python",
+          iconifyTag: "logos:python",
         },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
         {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "Vue",
-          iconifyTag: "vscode-icons:file-type-light-vue",
-        },
-        {
-          skillName: "Github",
+          skillName: "Git and Github",
           iconifyTag: "akar-icons:github-fill",
         },
         {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
-        },
-        {
           skillName: "Latex",
-          iconifyTag: "logos:latex",
+          iconifyTag: "simple-icons:latex",
         },
         {
           skillName: "Unity",
@@ -91,11 +79,11 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "Excel",
-          iconifyTag: "logos:excel",
+          iconifyTag: "vscode-icons:file-type-excel",
         },
         {
           skillName: "CSS",
-          iconifyTag: "logos:css",
+          iconifyTag: "logos:css-3",
         },
         {
           skillName: "Wordpress",
@@ -113,22 +101,34 @@ export const skillsSection: SkillsSectionType = {
           skillName: "HTML",
           iconifyTag: "logos:html-5",
         },
+        {
+          skillName: "Vue",
+          iconifyTag: "logos:vue",
+        },
+        {
+          skillName: "Reactjs",
+          iconifyTag: "vscode-icons:file-type-reactjs",
+        },
+        {
+          skillName: "Docker",
+          iconifyTag: "logos:docker-icon",
+        },
       ],
     },
   ],
 };
 
 export const SkillBars: SkillBarsType[] = [
-  { Stack: "Programming (C, C#, Python, Java and more)", progressPercentage: "90" },
-  { Stack: "VIdeo Editing (HitFilm, Premiere Pro)", progressPercentage: "85" },
-  { Stack: "Full Unity Pipeline", progressPercentage: "80" },
-  { Stack: "ClickUp, Notion, Miro", progressPercentage: "80" },
-  { Stack: "Figma", progressPercentage: "80" },
-  { Stack: "Maple", progressPercentage: "80" },
-  { Stack: "Photoshop", progressPercentage: "70" },
-  { Stack: "Frontend/Design", progressPercentage: "65" },
-  { Stack: "Godot", progressPercentage: "60" },
-  { Stack: "Blender", progressPercentage: "50" },
+  { Stack: "Programming (C#, c, Python, Java and more)", progressPercentage: "90", description: "Professional" },
+  { Stack: "Full Unity Pipeline", progressPercentage: "90", description: "Expert" },
+  { Stack: "Video Editing (HitFilm, Premiere Pro)", progressPercentage: "85", description: "Advanced" },
+  { Stack: "ClickUp, Notion, Miro", progressPercentage: "80", description: "Advanced" },
+  { Stack: "Figma", progressPercentage: "80", description: "Advanced" },
+  { Stack: "Maple", progressPercentage: "75", description: "Proficient" },
+  { Stack: "Photoshop", progressPercentage: "70", description: "Proficient" },
+  { Stack: "Frontend/Design", progressPercentage: "65", description: "Proficient" },
+  { Stack: "Godot", progressPercentage: "60", description: "Intermediate" },
+  { Stack: "Blender", progressPercentage: "50", description: "Intermediate" },
 ];
 
 export const educationInfo: EducationType[] = [
@@ -267,9 +267,7 @@ export const games: ProjectType[] = [
   },
 ];
 
-
-export const feedbacks: FeedbackType[] = [
-];
+export const feedbacks: FeedbackType[] = [];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {

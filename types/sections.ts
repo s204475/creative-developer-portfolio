@@ -47,6 +47,7 @@ export type SkillsSectionType = {
 export type SkillBarsType = {
   Stack: string;
   progressPercentage: string;
+  description?: string; // Descriptive value Novice, Beginner ,Junior, Intermediate,Proficient,Advanced ,Expert,Specialist ,Master
 };
 
 // * EDUCATION SECTION
