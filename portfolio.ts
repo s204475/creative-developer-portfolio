@@ -122,11 +122,11 @@ export const SkillBars: SkillBarsType[] = [
   { Stack: "Programming (C#, c, Python, Java and more)", progressPercentage: "90", description: "Professional" },
   { Stack: "Full Unity Pipeline", progressPercentage: "90", description: "Expert" },
   { Stack: "Video Editing (HitFilm, Premiere Pro)", progressPercentage: "85", description: "Advanced" },
-  { Stack: "ClickUp, Notion, Miro", progressPercentage: "80", description: "Advanced" },
-  { Stack: "Figma", progressPercentage: "80", description: "Advanced" },
-  { Stack: "Maple", progressPercentage: "75", description: "Proficient" },
+  { Stack: "Project Management (ClickUp, Notion, Miro)", progressPercentage: "80", description: "Advanced" },
+  { Stack: "Design Prototyping (Figma)", progressPercentage: "80", description: "Advanced" },
+  //{ Stack: "Maple", progressPercentage: "75", description: "Proficient" },
   { Stack: "Photoshop", progressPercentage: "70", description: "Proficient" },
-  { Stack: "Frontend/Design", progressPercentage: "65", description: "Proficient" },
+  { Stack: "Frontend", progressPercentage: "65", description: "Proficient" },
   { Stack: "Godot", progressPercentage: "60", description: "Intermediate" },
   { Stack: "Blender", progressPercentage: "50", description: "Intermediate" },
 ];
@@ -221,7 +221,7 @@ export const projects: ProjectType[] = [
   },
   {
     name: "Creative Developer Portfolio",
-    desc: "This very webpage. A software developer portfolio built with react.js and next.js bootstrap that showcases my work.",
+    desc: "This very site. A software developer portfolio built with react.js and next.js bootstrap meant to showcase my work.",
     //github: "",
     //link: "",
     //buttonText: "Reload this page",
@@ -262,8 +262,12 @@ export const games: ProjectType[] = [
   {
     name: "Lyngbyvej",
     desc: "An in-person escape room game. The game area is my own fully modeled apartment and the player needs clues placed in the real world to solve in-game puzzles which means it cannot be played remotely. Made as a gift for my better half.",
-    link: "",
-    buttonText: "Watch some gameplay",
+    //gif: "./gifs/Lyngbyvej.gif" //TODO: Add gif
+  },
+  {
+    name: "Tons of prototypes",
+    desc: "I have made more prototypes and proof of concepts than I can count. Some examples are shown below.",
+    //gif: "./gifs/Prototypes.gif", //TODO: add gif
   },
 ];
 
