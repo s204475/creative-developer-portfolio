@@ -85,6 +85,8 @@ export type ProjectType = {
   image?: string;
   gif?: string;
   youtube?: string;
+  newWindow: boolean;
+  role?: string;
 };
 
 // * FEEDBACK SECTION

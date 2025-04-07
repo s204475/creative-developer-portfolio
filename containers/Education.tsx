@@ -39,7 +39,7 @@ const Education = () => {
               x="0"
               y="0"
             >
-              <polygon className="fill-white" points="2560 0 2560 100 0 1000" />
+              <polygon className="fill-white" points="2560 0 2560 100 0 400" />
             </svg>
           </div>
         </section>

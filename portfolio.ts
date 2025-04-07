@@ -119,7 +119,7 @@ export const skillsSection: SkillsSectionType = {
 };
 
 export const SkillBars: SkillBarsType[] = [
-  { Stack: "Programming (C#, c, Python, Java and more)", progressPercentage: "90", description: "Professional" },
+  { Stack: "Programming (C#, c, Python, Java and more)", progressPercentage: "90", description: "Expert" },
   { Stack: "Full Unity Pipeline", progressPercentage: "90", description: "Expert" },
   { Stack: "Video Editing (HitFilm, Premiere Pro)", progressPercentage: "85", description: "Advanced" },
   { Stack: "Project Management (ClickUp, Notion, Miro)", progressPercentage: "80", description: "Advanced" },
@@ -149,7 +149,7 @@ export const educationInfo: EducationType[] = [
     ],
   },
   {
-    schoolName: "Danish Technical University (DTU)",
+    schoolName: "Danish Technical University (DTU) ",
     subHeader: "Bachelor of Science in Computer Science",
     duration: "August 2021 - December 2024",
     desc: "",
@@ -212,19 +212,21 @@ export const projects: ProjectType[] = [
     desc: "A digital platform that allows you to explore CCUS (carbon capture, storage and utilisation) projects interactively by browsing, searching, and sorting research projects.",
     link: "https://inno-ccus.dk/project-overview/",
     buttonText: "Explore projects",
+    newWindow: true,
   },
   {
     name: "Project Game",
     desc: '"Project Game" is an online simulation of various project management scenarios, where you can test your project management skills. Used yearly by hundreds of students at DTU in various courses.',
     link: "https://v2202303182271221643.ultrasrv.de/",
     buttonText: "Try the demo",
+    newWindow: true,
   },
   {
     name: "Creative Developer Portfolio",
     desc: "This very site. A software developer portfolio built with react.js and next.js bootstrap meant to showcase my work.",
-    //github: "",
-    //link: "",
-    //buttonText: "Reload this page",
+    link: "http://kcw8400ksgwocw8cs0owsg4s.188.245.93.175.sslip.io/",
+    buttonText: "Reload this page",
+    newWindow: false,
   },
 ];
 
@@ -237,13 +239,8 @@ export const games: ProjectType[] = [
     link2: "https://www.youtube.com/watch?v=mu_uweJRkYo&ab_channel=TeamTallTrees",
     buttonText2: "Watch the Trailer",
     gif: "./gifs/mixing.gif",
-  },
-  {
-    name: "Midnight Snack",
-    desc: "A VR horror game where you have to fight back against a monster chef trying to eat you.",
-    //link: "",
-    //buttonText: "Play for Free on Itch",
-    gif: "./gifs/MidnightSnack.gif",
+    newWindow: true,
+    role: "Lead Programmer",
   },
   {
     name: "The Unwelcome",
@@ -251,6 +248,26 @@ export const games: ProjectType[] = [
     gif: "./gifs/UnwelcomeCamera.gif",
     link: "https://patricia-blaymo.itch.io/the-unwelcome",
     buttonText: "Play for Free on Itch",
+    newWindow: true,
+    role: "Lead Programmer",
+  },
+  {
+    name: "Midnight Snack",
+    desc: "A VR horror game where you have to fight back against a monster chef trying to eat you.",
+    link: "https://dreunin.itch.io/midnight-snack",
+    buttonText: "Play for Free on Itch",
+    gif: "./gifs/MidnightSnack.gif",
+    newWindow: true,
+    role: "Developer",
+  },
+  {
+    name: "Tooth Pick",
+    desc: "Play as a the mouse Dave who is a down-on-his-luck toothfairy. Resort to desperate measures to meet your quota and not get fired.",
+    link: "https://dreunin.itch.io/tooth-pick",
+    buttonText: "Play for Free on Itch",
+    gif: "./gifs/ToothPick.gif",
+    newWindow: true,
+    role: "Developer",
   },
   {
     name: "Post the Most",
@@ -258,17 +275,23 @@ export const games: ProjectType[] = [
     link: "https://ldjam.com/events/ludum-dare/53/post-the-most",
     buttonText: "Play on Ludum Dare",
     gif: "./gifs/PostTheMost.gif",
+    newWindow: true,
+    role: "Developer",
   },
-  {
+  /*{
     name: "Lyngbyvej",
     desc: "An in-person escape room game. The game area is my own fully modeled apartment and the player needs clues placed in the real world to solve in-game puzzles which means it cannot be played remotely. Made as a gift for my better half.",
     //gif: "./gifs/Lyngbyvej.gif" //TODO: Add gif
+    newWindow: true,
+    role: "Sole developer",
   },
   {
     name: "Tons of prototypes",
     desc: "I have made more prototypes and proof of concepts than I can count. Some examples are shown below.",
     //gif: "./gifs/Prototypes.gif", //TODO: add gif
-  },
+    newWindow: true,
+    role: "Sole developer",
+  },*/
 ];
 
 export const feedbacks: FeedbackType[] = [];

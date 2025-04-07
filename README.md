@@ -16,6 +16,8 @@
 ✔️ Github Profile
 
 ## Getting Started
+- "npm install --legacy-peer-dep"
+- "npm run dev"
 
 ## Technologies Used
 

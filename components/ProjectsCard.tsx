@@ -14,6 +14,8 @@ const ProjectsCard = ({
   image,
   gif,
   youtube,
+  newWindow,
+  role,
 }: ProjectType) => {
   return (
     <Col lg="6">
@@ -48,7 +50,7 @@ const ProjectsCard = ({
                   className="btn-icon"
                   color="success"
                   href={link}
-                  target="_blank"
+                  target = {newWindow ? "_blank" : "_self"}
                   rel="noopener"
                   aria-label="Twitter"
                 >
@@ -72,6 +74,9 @@ const ProjectsCard = ({
                   </span>
                   <span className="nav-link-inner--text ml-1">{buttonText2}</span>
                 </Button>
+              ) : null}
+              {role ? (
+                <p className="description mt-1" style={{ fontSize: "1.25rem", fontWeight: "bold" }}>Role: {role}</p>
               ) : null}
             </div>
           </div>
