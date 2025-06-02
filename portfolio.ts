@@ -251,6 +251,11 @@ export const games: ProjectType[] = [
       "production and 3D environments. Reviews praise it for its cozy atmosphere, emotional depth, and thoughtful gameplay that encourages players to savor the time left " +
       "and connect deeply with characters." +
       "\n\nFree to play.",
+    roleDescription:
+      "As the Lead Programmer for the DADIU graduation game End Transmission?, I played a central role in both the technical and organizational aspects of development. From the outset, I was responsible for creating a structured production plan, aligning sprint goals, and managing the programming team through tools like ClickUp and a comprehensive Technical Design Document. My leadership emphasized both strategic planning and adaptability, ensuring that tasks were well-scoped and aligned with each programmer’s strengths and interests." +
+      "\n\nBeyond management, I contributed significantly to the game’s codebase. I integrated complex systems such as Unity’s Animator Controller for character animations, a dynamic day/night cycle, and a settings menu with performance-based resolution scaling. I also implemented key gameplay features like the public service announcements (PSAs), a holographic bird tracker, and the intro and ending sequences. My technical contributions often involved “gluing” together disparate systems to ensure a cohesive player experience." +
+      "\n\nTo foster team engagement and in-house playtesting, I introduced weekly Easter Eggs—some of which became permanent features—and automated daily builds using a custom batch script. I also led workshops and one-on-one sessions to support programmer growth, covering topics from optimization to creative ideation." +
+      "\n\nThroughout the project, I balanced clean, maintainable code with pragmatic decision-making, prioritizing functionality and time efficiency where appropriate. My approach was grounded in trust, collaboration, and a deep understanding of both the technical and human elements of game development. The result was a polished, emotionally resonant game that reflected the collective creativity and dedication of the entire team.",
   },
   {
     name: "The Unwelcome",
