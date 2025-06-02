@@ -16,13 +16,18 @@ const ProjectsCard = ({
   youtube,
   newWindow,
   role,
+  whitespace,
 }: ProjectType) => {
   return (
     <Col lg="6">
       <Card className="shadow-lg--hover shadow mt-4">
-        <CardBody>
+        <CardBody className="h-100">
           <div className="d-flex px-3">
             <div className="pl-4">
+              {whitespace
+                ? // Show lines of whitespace depending on the whitespace prop
+                  Array.from({ length: whitespace }, (_, i) => <div key={i} style={{ height: "1rem" }} />)
+                : null}
               <h3>{name}</h3>
               <p className="description mt-3">{desc}</p>
               {github ? (
@@ -50,7 +55,7 @@ const ProjectsCard = ({
                   className="btn-icon"
                   color="success"
                   href={link}
-                  target = {newWindow ? "_blank" : "_self"}
+                  target={newWindow ? "_blank" : "_self"}
                   rel="noopener"
                   aria-label="Twitter"
                 >
@@ -76,8 +81,14 @@ const ProjectsCard = ({
                 </Button>
               ) : null}
               {role ? (
-                <p className="description mt-1" style={{ fontSize: "1.25rem", fontWeight: "bold" }}>Role: {role}</p>
+                <p className="description mt-1" style={{ fontSize: "1.25rem", fontWeight: "bold" }}>
+                  Role: {role}
+                </p>
               ) : null}
+              {whitespace
+                ? // Show lines of whitespace depending on the whitespace prop
+                  Array.from({ length: whitespace }, (_, i) => <div key={i} style={{ height: "1rem" }} />)
+                : null}
             </div>
           </div>
         </CardBody>

@@ -87,6 +87,7 @@ export type ProjectType = {
   youtube?: string;
   newWindow: boolean;
   role?: string;
+  whitespace?: number; // Number of lines of whitespace to add before/after the project TODO: Actually scale the card properly
 };
 
 // * FEEDBACK SECTION

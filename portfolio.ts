@@ -244,12 +244,13 @@ export const games: ProjectType[] = [
   },
   {
     name: "The Unwelcome",
-    desc: "An exploration thriller telling the story of a photographer trying to figure out what happened in a old garden many years ago where children were going missing.",
+    desc: "An exploration thriller telling the story of a photographer trying to figure out what happened in a old garden many years ago where children were going missing. \r",
     gif: "./gifs/UnwelcomeCamera.gif",
     link: "https://patricia-blaymo.itch.io/the-unwelcome",
     buttonText: "Play for Free on Itch",
     newWindow: true,
     role: "Lead Programmer",
+    whitespace: 1,
   },
   {
     name: "Midnight Snack",
@@ -259,6 +260,7 @@ export const games: ProjectType[] = [
     gif: "./gifs/MidnightSnack.gif",
     newWindow: true,
     role: "Developer",
+    whitespace: 2,
   },
   {
     name: "Tooth Pick",
