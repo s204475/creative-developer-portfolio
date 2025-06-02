@@ -241,6 +241,16 @@ export const games: ProjectType[] = [
     gif: "./gifs/mixing.gif",
     newWindow: true,
     role: "Lead Programmer",
+    longDesc:
+      "End Transmission? is a deeply atmospheric narrative management game set in the final days before the world ends." +
+      "\nYou play as Lenna, a teenage music enthusiast who, tired of the silence enveloping a dying world, breaks into an old radio tower to revive its transmitter. " +
+      "Your mission is to transform the silence into celebration by broadcasting music, taking calls, and uplifting the spirits of a small town facing its last moments. " +
+      "The game features a unique music system allowing you to mix up to nine different instruments, crafting a personalized soundtrack that influences the mood of the " +
+      "town’s inhabitants. As the radio host, you hear the stories of the townspeople and assist them in their farewells, aided by your avian companion, Tuvi." +
+      '\n \n \nDeveloped by Team Tall Trees in a six-week collaboration project hosted by DADIU, "End Transmission?" combines rich storytelling with engaging audio ' +
+      "production and 3D environments. Reviews praise it for its cozy atmosphere, emotional depth, and thoughtful gameplay that encourages players to savor the time left " +
+      "and connect deeply with characters." +
+      "\n\nFree to play.",
   },
   {
     name: "The Unwelcome",

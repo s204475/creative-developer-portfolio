@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardBody, Col, Button } from "reactstrap";
 import { Fade } from "react-awesome-reveal";
 import { ProjectType } from "../types/sections";
+import { useRouter } from "next/router";
 
 const ProjectsCard = ({
   name,
@@ -17,10 +18,25 @@ const ProjectsCard = ({
   newWindow,
   role,
   whitespace,
+  longDesc, // Long description for project page
+  images = [], // Images for project page
 }: ProjectType) => {
+  const router = useRouter();
+  if (longDesc === undefined || longDesc === null || longDesc === "" || longDesc === "undefined") {
+    longDesc = desc; // Fallback to desc if longDesc is not provided
+  }
+
+  const handleClick = () => {
+    const projectId = name.toLowerCase().replace(/\s+/g, "-");
+    router.push({
+      pathname: `/project/${projectId}`,
+      query: { name, longDesc, role, images }, // minimal query params
+    });
+  };
+
   return (
     <Col lg="6">
-      <Card className="shadow-lg--hover shadow mt-4">
+      <Card className="shadow-lg--hover shadow mt-4" onClick={handleClick} style={{ cursor: "pointer" }}>
         <CardBody className="h-100">
           <div className="d-flex px-3">
             <div className="pl-4">
@@ -38,6 +54,7 @@ const ProjectsCard = ({
                   target="_blank"
                   rel="noopener"
                   aria-label="Github"
+                  onClick={e => e.stopPropagation()}
                 >
                   <span className="btn-inner--icon">
                     <i className="fa fa-github" />
@@ -58,6 +75,7 @@ const ProjectsCard = ({
                   target={newWindow ? "_blank" : "_self"}
                   rel="noopener"
                   aria-label="Twitter"
+                  onClick={e => e.stopPropagation()}
                 >
                   <span className="btn-inner--icon">
                     <i className="fa fa-arrow-right mr-2" />
@@ -73,6 +91,7 @@ const ProjectsCard = ({
                   target="_blank"
                   rel="noopener"
                   aria-label="Twitter"
+                  onClick={e => e.stopPropagation()}
                 >
                   <span className="btn-inner--icon">
                     <i className="fa fa-arrow-right mr-2" />

@@ -88,6 +88,8 @@ export type ProjectType = {
   newWindow: boolean;
   role?: string;
   whitespace?: number; // Number of lines of whitespace to add before/after the project TODO: Actually scale the card properly
+  longDesc?: string; // Long description for project page
+  images?: string[]; // Images for project page
 };
 
 // * FEEDBACK SECTION
