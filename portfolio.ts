@@ -242,20 +242,22 @@ export const games: ProjectType[] = [
     newWindow: true,
     role: "Lead Programmer",
     longDesc:
-      "End Transmission? is a deeply atmospheric narrative management game set in the final days before the world ends." +
-      "\nYou play as Lenna, a teenage music enthusiast who, tired of the silence enveloping a dying world, breaks into an old radio tower to revive its transmitter. " +
+      '"End Transmission?" is a deeply atmospheric narrative management game set in the final days before the world ends.' +
+      "\n\nYou play as Lenna, a teenage music enthusiast who, tired of the silence enveloping a dying world, breaks into an old radio tower to revive its transmitter. " +
       "Your mission is to transform the silence into celebration by broadcasting music, taking calls, and uplifting the spirits of a small town facing its last moments. " +
       "The game features a unique music system allowing you to mix up to nine different instruments, crafting a personalized soundtrack that influences the mood of the " +
       "town’s inhabitants. As the radio host, you hear the stories of the townspeople and assist them in their farewells, aided by your avian companion, Tuvi." +
-      '\n \n \nDeveloped by Team Tall Trees in a six-week collaboration project hosted by DADIU, "End Transmission?" combines rich storytelling with engaging audio ' +
+      '\n \n \nDeveloped by Team Tall Trees in a six-week collaboration project hosted by DADIU, \"End Transmission?\" combines rich storytelling with engaging audio ' +
       "production and 3D environments. Reviews praise it for its cozy atmosphere, emotional depth, and thoughtful gameplay that encourages players to savor the time left " +
-      "and connect deeply with characters." +
-      "\n\nFree to play.",
+      "and connect deeply with characters.",
     roleDescription:
-      "As the Lead Programmer for the DADIU graduation game End Transmission?, I played a central role in both the technical and organizational aspects of development. From the outset, I was responsible for creating a structured production plan, aligning sprint goals, and managing the programming team through tools like ClickUp and a comprehensive Technical Design Document. My leadership emphasized both strategic planning and adaptability, ensuring that tasks were well-scoped and aligned with each programmer’s strengths and interests." +
+      'As the Lead Programmer for the DADIU graduation game "End Transmission?", I played a central role in both the technical and organizational aspects of development. From the outset, I was responsible for creating a structured production plan, aligning sprint goals, and managing the programming team through tools like ClickUp and a comprehensive Technical Design Document. My leadership emphasized both strategic planning and adaptability, ensuring that tasks were well-scoped and aligned with each programmer’s strengths and interests.' +
       "\n\nBeyond management, I contributed significantly to the game’s codebase. I integrated complex systems such as Unity’s Animator Controller for character animations, a dynamic day/night cycle, and a settings menu with performance-based resolution scaling. I also implemented key gameplay features like the public service announcements (PSAs), a holographic bird tracker, and the intro and ending sequences. My technical contributions often involved “gluing” together disparate systems to ensure a cohesive player experience." +
       "\n\nTo foster team engagement and in-house playtesting, I introduced weekly Easter Eggs—some of which became permanent features—and automated daily builds using a custom batch script. I also led workshops and one-on-one sessions to support programmer growth, covering topics from optimization to creative ideation." +
-      "\n\nThroughout the project, I balanced clean, maintainable code with pragmatic decision-making, prioritizing functionality and time efficiency where appropriate. My approach was grounded in trust, collaboration, and a deep understanding of both the technical and human elements of game development. The result was a polished, emotionally resonant game that reflected the collective creativity and dedication of the entire team.",
+      "\n\nThroughout the project, I balanced clean, maintainable code with pragmatic decision-making, prioritizing functionality and time efficiency where appropriate. My approach was grounded in trust, collaboration, and a deep understanding of both the technical and human elements of game development. The result was a polished, emotionally resonant game that reflected the collective creativity and dedication of the entire team." +
+      "\n\nI am very proud of the team and what we accomplished.",
+    images: ["./projects/ET/ET_Progress.png"],
+    imagesText: ["Weekly progress screenshot"],
   },
   {
     name: "The Unwelcome",

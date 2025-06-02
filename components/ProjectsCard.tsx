@@ -19,7 +19,8 @@ const ProjectsCard = ({
   role,
   whitespace,
   longDesc, // Long description for project page
-  images = [], // Images for project page
+  images, // Images for project page
+  imagesText, // Text for images in project page
   roleDescription, // Description of the role in the project
 }: ProjectType) => {
   const router = useRouter();
@@ -31,7 +32,20 @@ const ProjectsCard = ({
     const projectId = name.toLowerCase().replace(/\s+/g, "-");
     router.push({
       pathname: `/project/${projectId}`,
-      query: { name, longDesc, role, images, roleDescription }, // minimal query params
+      query: {
+        name,
+        longDesc,
+        role,
+        images,
+        imagesText,
+        roleDescription,
+        link,
+        link2,
+        github,
+        newWindow,
+        buttonText,
+        buttonText2,
+      }, // minimal query params
     });
   };
 
