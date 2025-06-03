@@ -98,7 +98,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:java",
         },
         {
-          skillName: "HTML",
+          skillName: "HTML5",
           iconifyTag: "logos:html-5",
         },
         {

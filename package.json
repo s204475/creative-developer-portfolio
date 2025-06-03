@@ -34,9 +34,6 @@
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.2.1",
     "react-lottie": "^1.2.10",
-    "react-router-dom": "^7.6.1",
-    "react-scripts": "^5.0.1",
-    "react-typist": "^2.0.5",
     "reactstrap": "^9.2.3",
     "sharp": "^0.33.5"
   },
