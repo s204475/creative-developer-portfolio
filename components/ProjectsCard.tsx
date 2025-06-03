@@ -45,7 +45,7 @@ const ProjectsCard = ({
         newWindow,
         buttonText,
         buttonText2,
-      }, // minimal query params
+      }, // minimal query params TODO: Move queries to the project page
     });
   };
 
