@@ -278,6 +278,11 @@ export const games: ProjectType[] = [
     newWindow: true,
     role: "Developer",
     whitespace: 2,
+    images: ["./projects/MidnightSnack/Splash.jpg", "./projects/MidnightSnack/Icon.png"],
+    imagesText: [
+      "Splash screen",
+      "Icon",
+    ],
   },
   {
     name: "Tooth Pick",

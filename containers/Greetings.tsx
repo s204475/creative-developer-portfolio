@@ -42,7 +42,7 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">Resume PDF (In Danish)</span>
+                        <span className="btn-inner--text">Résumé PDF (In Danish)</span>
                       </Button>
                     </div>
                   )}
