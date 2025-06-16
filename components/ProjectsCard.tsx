@@ -22,6 +22,7 @@ const ProjectsCard = ({
   images, // Images for project page
   imagesText, // Text for images in project page
   roleDescription, // Description of the role in the project
+  experienceGained, // Experience gained from the project
 }: ProjectType) => {
   const router = useRouter();
   if (longDesc === undefined || longDesc === null || longDesc === "" || longDesc === "undefined") {
@@ -61,6 +62,7 @@ const ProjectsCard = ({
                 : null}
               <h3>{name}</h3>
               <p className="description mt-3">{desc}</p>
+              <p className="experience-gained">{experienceGained ? experienceGained.join(", ") : ""}</p>
               {github ? (
                 <Button
                   className="btn-icon"

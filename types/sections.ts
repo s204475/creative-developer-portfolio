@@ -92,6 +92,7 @@ export type ProjectType = {
   images?: string[]; // Images for project page
   imagesText?: string[]; // Text for images in project page
   roleDescription?: string; // Description of the role in the project
+  experienceGained?: string[]; // Experience gained from the project
 };
 
 // * FEEDBACK SECTION

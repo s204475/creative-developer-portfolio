@@ -10,6 +10,7 @@ import {
   SocialLinksType,
   GreetingsType,
 } from "./types/sections";
+import Experience from "./containers/Experience";
 
 /**
  * TODO: Certificate
@@ -213,6 +214,7 @@ export const projects: ProjectType[] = [
     link: "https://inno-ccus.dk/project-overview/",
     buttonText: "Explore projects",
     newWindow: true,
+    experienceGained: ["Wordpress plugin development", "web development", "project management", "data visualization", "UI/UX design"],
   },
   {
     name: "Project Game",
@@ -220,6 +222,7 @@ export const projects: ProjectType[] = [
     link: "https://v2202303182271221643.ultrasrv.de/",
     buttonText: "Try the demo",
     newWindow: true,
+    experienceGained: ["Vue", "JavaScript", "HTML", "CSS", "project management", "gamification", "web development"],
   },
   {
     name: "Creative Developer Portfolio",
@@ -227,6 +230,7 @@ export const projects: ProjectType[] = [
     link: "http://kcw8400ksgwocw8cs0owsg4s.188.245.93.175.sslip.io/",
     buttonText: "Reload this page",
     newWindow: false,
+    experienceGained: ["React", "Next.js", "JavaScript", "HTML", "CSS", "web development"],
   },
 ];
 
@@ -258,6 +262,7 @@ export const games: ProjectType[] = [
       "\n\nI am very proud of the team and what we accomplished.",
     images: ["./projects/ET/ET_Progress.png"],
     imagesText: ["Weekly progress screenshot"],
+    experienceGained: ["3D", "narrative", "game development", "project management", "teamwork", "pitching", "scoping", "localization", "WISE (audio software)"],
   },
   {
     name: "The Unwelcome",
@@ -268,6 +273,12 @@ export const games: ProjectType[] = [
     newWindow: true,
     role: "Lead Programmer",
     whitespace: 1,
+    roleDescription: "The biggest constraint on this project was the small time scope of ten days. With so little time, preperation was key."
+    +" I knew we needed to quickly define the systems and divide work to appropriate programmers, so they could get started as soon as possible." 
+    +" I therefore spent the full first day defining every tasks and the different dependencies. After that, it was simply a matter of assigning the tasks to the correct person."
+    +"\nThe result is quite impressive for the small time we had, and especially the artists performed tremendously well under the time pressure." 
+    +"\nI am personally proud of being able to quickly jump between the different integral system (entity pathfinding, UI, performance optimisations) and helping the programmers perform their best.",
+    experienceGained: ["3D", "narrative", "game development", "project management", "scoping", "teamwork", "pathfinding"],
   },
   {
     name: "Midnight Snack",
@@ -283,6 +294,10 @@ export const games: ProjectType[] = [
       "Splash screen",
       "Icon",
     ],
+    roleDescription: "The game was developed by a team of three at DTU for the excellent \"Creating Digital Visual Experiences\" course. " +
+    "We all worked on game design, and after defining the core gameplay loop, we seperated into the roles of developer (me), artist and environment designer. " +
+    "This was my first time working in a team with so clearly defined roles, and I not only learned a lot from the others, but also honed my skills in game development communication as I had to realise the collective vision of the group.",
+    experienceGained: ["VR", "horror", "game development", "teamwork"],
   },
   {
     name: "Tooth Pick",
@@ -292,6 +307,8 @@ export const games: ProjectType[] = [
     gif: "./gifs/ToothPick.gif",
     newWindow: true,
     role: "Developer",
+    roleDescription: "I was one of two developers in a group with two artists and a game designer. The strict time limit of 48 hours for the Nordic Game Jam 2024, meant that we had to quickly define the game and get started on working. It was the first time where I felt behind as a programmer, since the game designer and artists filled so many of the roles that I have previously had to do myself. However, our excellent teamwork meant that we succeeded in staying ahead of the time limit and finished with a decent game. I spearheaded the 2D, physics-based platformer part of the game and only handled UI elements of the surprising point-and-click twist at the end.",
+    experienceGained: ["2D", "platformer", "game development"],
   },
   {
     name: "Post the Most",
@@ -301,6 +318,7 @@ export const games: ProjectType[] = [
     gif: "./gifs/PostTheMost.gif",
     newWindow: true,
     role: "Developer",
+    experienceGained: ["game jam", "game development", "innovation"],
   },
   /*{
     name: "Lyngbyvej",
