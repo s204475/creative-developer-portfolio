@@ -62,7 +62,7 @@ const ProjectsCard = ({
                 : null}
               <h3>{name}</h3>
               <p className="description mt-3">{desc}</p>
-              <p className="experience-gained">{experienceGained ? "Experience gained: " + experienceGained.join(", ") : ""}</p>
+              <p className="description mt-4">{experienceGained ? "Tags: " + experienceGained.join(", ") : ""}</p>
               {github ? (
                 <Button
                   className="btn-icon"
